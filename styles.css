@@ -1,0 +1,58 @@
+h1 {
+  font-family: Courier;
+  color:coral;
+}
+
+/*
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 100px;
+  width:40%;
+  padding: 25px;
+  margin: 25px;
+  display:inline-block;
+}
+
+.miniature {
+  width: 100px;
+}
+
+*/
+
+html {
+  font-size: 32px;
+}
+
+ol {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+li {
+  width: 100%;
+}
+
+li img {
+  width: 100%;
+}
+
+@media only screen and (min-width:480px) {
+  html {
+    font-size: 16px;
+}
+
+  li {
+    width:50%;
+  }
+  
+  li img {
+    width:100px;
+  }
+  
+}
+
